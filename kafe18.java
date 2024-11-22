@@ -1,6 +1,7 @@
 public class kafe18 {
 
-    public static void menu(){
+
+    public static void main(String[] args) {
         System.out.println("========== MENU RESTORAN DaVinci ==========");
         System.out.println("1. Kopi Hitam - 15000");
         System.out.println("2. Capuccino - 20000");
@@ -10,10 +11,5 @@ public class kafe18 {
         System.out.println("6. Mie goreng - 18000");
         System.out.println("===========================================");
         System.out.println(" =Silahkan masukan menu yang anda inginkan=");
-        
-    }
-
-    public static void main(String[] args) {
-        menu();
     }
 }
